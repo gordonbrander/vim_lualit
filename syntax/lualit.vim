@@ -12,8 +12,8 @@ unlet b:current_syntax
 
 syn clear markdownCode
 
-syn include @lua syntax/lua.vim
+syn include @LUA syntax/lua.vim
 
-syn region inlineLua start='^    \|\t' end='$' contains=@lua
+syn region inlineLua start='^    \|\t' end='$' contains=@LUA
 
 let b:current_syntax = "lualit"

@@ -7,7 +7,7 @@ if exists('b:did_indent')
   finish
 endif
 
-runtime! indent/lualit.vim
+runtime! indent/lua.vim
 
 let b:did_indent = 1
 
@@ -23,5 +23,4 @@ function GetLualitIndent()
   else
     return -1
   endif
-endfunc
-
+endfunction
